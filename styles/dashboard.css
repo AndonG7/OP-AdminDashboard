@@ -1,0 +1,50 @@
+@import "main.css";
+
+.dashboard {
+    background-color: var(--color-purple);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 5rem;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+.name .dashboardLogo{
+    height: 2.5rem;
+}
+
+nav, .settings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon {
+    height: 1.5rem;
+}
+
+.iconTrending {
+    height: 3rem;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,88 @@
+@import "main.css";
+
+.header {
+    padding: 1rem 3rem;
+    position: sticky;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchBar input {
+    width: 30rem;
+    background-color: rgba(126, 29, 51, 0.24);
+    border: none;
+    border-radius: 15px;
+    height: 20px;
+}
+
+.profileSmall {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 900;
+}
+
+.profilePicture {
+    height: 3rem;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileLarge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profilePictureLarge {
+    height: 5rem;
+}
+
+.profileText h2 {
+    font-size: 1.2rem;
+}
+
+
+.profileText h4 {
+    font-size: 0.9rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.buttons button {
+    background-color: var(--color-purple);
+    border: none;
+    padding: 10px;
+    min-width: 5rem;
+    border-radius: 15px;
+    color: white;
+    font-weight: 900;
+    transition: all 0.2s ease;
+}
+
+.buttons button:hover {
+    background-color: rgb(83, 34, 46);
+    cursor: pointer;
+}
+
+.buttons button:active {
+    background-color: var(--color-orange);
+}

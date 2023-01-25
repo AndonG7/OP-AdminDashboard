@@ -1,0 +1,99 @@
+@import "main.css";
+
+.main-container {
+    background-color: rgba(119, 51, 68, 0.1);
+}
+
+.project {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.line {
+    background-color: var(--color-orange);
+    width: 1.5rem;
+    border-radius: 20px 0 0 20px;
+}
+
+.text {
+    padding: 1rem;
+    visibility: visible;
+}
+.your-projects{
+    padding: 1rem;
+}
+
+.news {
+    padding: 1rem;
+}
+
+.cards {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.card h3 {
+    font-size: 0.9rem;
+}
+
+.card p {
+    font-size: 0.7rem;
+}
+
+.your-projects h2 {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.news h2 {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.project h3 {
+    padding-bottom: 1rem;
+}
+
+.p1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.74)), url(../images/project1.png);
+    width: 100%;
+    background-size: contain;
+}
+
+.p2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.74)), url(../images/project2.png);
+    width: 100%;
+    background-size: contain;
+}
+
+.p3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.74)), url(../images/project3.png);
+    width: 100%;
+    background-size: contain;
+}
+
+.p4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.74)), url(../images/project4.png);
+    width: 100%;
+    background-size: contain;
+}
+
+.p5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.74)), url(../images/project5.png);
+    width: 100%;
+    background-size: contain;
+}
+
+.p6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.74)), url(../images/project6.png);
+    width: 100%;
+    background-size: contain;
+}
+
